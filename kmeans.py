@@ -1,10 +1,5 @@
 import math
 
-'''
-items - Is a dictionary where each key is the item label and the value is another dictionary 
-        where each axis is contained in a label/value pair.
-'''
-
 def kmeans(items, k, seed = 0, maxIterations = 100):
     allKeys = items.keys()
 
