@@ -16,13 +16,13 @@ def kmeans(items, k, seed = 0, maxIterations = 100):
     while iteration < maxIterations:
         iteration += 1
 
-        #Clear state groupings
+        #Clear groupings
         groupings = {}
 
         for x in range(0, k):
             groupings[x] = []
 
-        #Fill state groupings based off centroids
+        #Fill groupings based off centroids
         for key in allKeys:
             vector = list(mapped[key].values())
 
