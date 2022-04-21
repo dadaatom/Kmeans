@@ -13,4 +13,4 @@ Expected parameters:
 Expected output
 
   - Returns a list where each sublist is the item labels clustered around the same centroid.
-  - If the doesn't converge within a set number of iteration the output will be an empty list.
+  - If the function doesn't converge within a set number of iteration (100 by default) the output will be an empty list.
